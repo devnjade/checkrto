@@ -1,0 +1,12 @@
+@import '/src/assets/scss/base/variables';
+
+.container{
+  background: $white;
+  border-radius: 32px;
+  width: 400px;
+
+  @media (max-width: 560px) {
+    width: 100%;
+    border-radius: 0;
+  }
+}
