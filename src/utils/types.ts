@@ -5,4 +5,9 @@ export enum ScreenStatus {
   PENDING = "pending",
   SUCCESSFUL = "successful",
   FAILED = "failed",
+  CONNECT = "connect",
+}
+
+export interface State {
+  screen: ScreenStatus;
 }
